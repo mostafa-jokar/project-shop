@@ -1,0 +1,83 @@
+.sideFilter-allProductsPage {
+      display: block;
+}
+.sideFilter-allProductsPage .sideFilter-search {
+      /* background-color: cornflowerblue; */
+      margin-top: 50px;
+}
+.sideFilter-allProductsPage .sideFilter-search > h6{
+     font-size: 1.1rem !important;
+}
+.sideFilter-allProductsPage .sideFilter-search > input{
+     width: 100%;
+     margin-top: 15px;
+     font-size: .85rem;
+ 
+}
+.checkForm .checkForm-search {
+  margin-top: 15px;
+  border-top: 1px solid rgb(190, 190, 190);
+  padding-top: 20px;
+}
+
+.checkForm .checkForm-search > h6{
+    
+     font-size: 1.1rem !important;
+}
+.checkForm .checkForm-search > input{
+     width: 100%;
+     margin-top: 10px;
+     font-size: .85rem;
+     
+}
+
+.checkFormList{
+    margin: 12px 0;
+    height: 40vh;
+    transition: all .3s ease-in-out;
+}
+.checkFormList_Active{
+ 
+    overflow-y: scroll;
+    height: 60vh;
+}
+.checkFormList_DeActive{
+ 
+    overflow: hidden;
+}
+
+.checkFormListName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8rem;
+    padding: 0 17px;
+    margin-bottom: 2px;
+    /* background-color: aqua; */
+      
+}
+.checkFormListName > div{
+    display: flex;
+    align-items: center;
+}
+.checkFormListName > div > input{
+    margin-left: 5px;
+}
+
+
+.checkForm > .btnCheckFormList {
+    border-bottom: 1px solid rgb(201, 201, 201);
+
+    padding-bottom: 20px ;
+}
+.checkForm > .btnCheckFormList > button{
+    width: 100%;
+    height: 2.2rem;
+    border-radius: 5px;
+    background-color: rgb(219, 216, 216);
+    border: none;
+    color: rgb(133, 132, 132);
+    
+   
+
+}

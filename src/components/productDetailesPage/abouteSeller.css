@@ -1,0 +1,24 @@
+.contentAbouteSeller{
+   
+    font-size: .8rem;
+    color: rgb(92, 90, 90);
+    border-radius: 5px ;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.contentAbouteSeller > p{
+    padding-right: 15px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-color: rgb(231, 229, 229);
+}
+.contentAbouteSeller > p > a{
+    color: rgb(17, 116, 209);
+     text-decoration: none;
+}
+.contentAbouteSeller > div {
+    padding-right: 15px;
+}
+.contentAbouteSeller > div p i{
+    color: rgb(17, 116, 209);
+}

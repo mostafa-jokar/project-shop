@@ -1,0 +1,222 @@
+.itemCart{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px 8px 0 0;
+    transition: all .3s ease-in-out;
+    /* height: 9rem; */
+    margin:10px 10px 0 0;
+    border-bottom: 1px solid rgb(232, 243, 252);
+    padding: 15px 0;
+    width: 100%;
+ 
+}
+
+.itemCart:hover{
+    
+    box-shadow: 1px 2px 15px 3px rgb(212, 210, 210);
+}
+.rightItemCart img{
+    width: 6rem;
+    height: 7rem;
+    border-radius: 8x;
+    margin: 5px;
+}
+.rightItemCart{
+    /* background-color: rgb(165, 42, 159); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+}
+.rightItemCart div p{
+    /* background-color: aqua; */
+    font-size:.9rem;
+    color: rgb(13, 58, 141);
+
+}
+.rightItemCart p span{
+    margin-right: 10px;
+    font-size:.9rem;
+    color: rgb(80, 80, 80);
+}
+.rightItemCart div h5{
+    font-size:.9rem;
+    padding: 5px 10px;
+    /* font-family: YekanT; */
+    color: rgb(0, 0, 0);
+    line-height: 1.3rem;
+}
+
+/* center */
+.centerItemCart{
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centerItemCart  h6 {
+    /* font-family: YekanTh !important; */
+}
+.centerItemCart > h6 > span{
+    /* font-family: Yekanb !important; */
+    color: rgb(133, 131, 128);
+    font-size: .8rem;
+}
+/* left */
+.leftItemCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnsLeftItemCart{
+    display: flex;
+    width: 70%;
+    height: 2.2rem;
+    padding: 0 8px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: .2px solid rgb(216, 226, 226);
+    
+}
+.btnsLeftItemCart > button{
+  background-color: unset;
+  color: rgb(145, 141, 141);
+  border: none;
+  font-size: 1.3rem;
+  font-family: YekanT;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* responsive */
+@media only screen and (max-width: 767.9px) {
+    .rightItemCart{
+        width: 100% !important;
+        /* background-color: aqua; */
+    }
+   
+   
+    .rightItemCart div p{
+        /* background-color: aqua; */
+        font-size:.8rem;
+    }
+    .rightItemCart p span{
+
+        font-size:.8rem;
+       
+    }
+    .rightItemCart div h5{
+        font-size:.8rem;
+        width: 100% !important;
+    }
+    
+    /* center */
+ 
+    .centerItemCart   {
+        /* font-family: YekanTh !important; */
+        /* background-color: brown; */
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .centerItemCart  h6 {
+        /* font-family: YekanTh !important; */
+        font-size: .9rem;
+    }
+    .centerItemCart > h6 > span{
+        /* font-family: Yekanb !important; */
+        color: rgb(133, 131, 128);
+        font-size: .8rem;
+    }
+    /* left */
+    .leftItemCart{
+        width: 100%;
+        /* background-color: rgb(187, 61, 158); */
+        justify-content: flex-end;
+    }
+    .btnsLeftItemCart{
+     
+        width: 50%;
+        height: 1.8rem;   
+    }
+    .btnsLeftItemCart > button{
+      background-color: unset;
+      color: rgb(145, 141, 141);
+      border: none;
+      font-size: 1.1rem;
+      font-family: YekanT;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+@media only screen and (max-width: 350px) {
+    .rightItemCart{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+   
+   
+    .rightItemCart div p{
+        /* background-color: aqua; */
+        font-size:.7rem;
+    }
+    .rightItemCart p span{
+
+        font-size:.7rem;
+       
+    }
+    .rightItemCart div h5{
+        font-size:.7rem;
+        width: 100% !important;
+    }
+    
+    /* center */
+ 
+    .centerItemCart   {
+        /* font-family: YekanTh !important; */
+        /* background-color: brown; */
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .centerItemCart  h6 {
+        /* font-family: YekanTh !important; */
+        font-size: .8rem;
+    }
+    .centerItemCart > h6 > span{
+        /* font-family: Yekanb !important; */
+        color: rgb(133, 131, 128);
+        font-size: .7rem;
+    }
+    /* left */
+    .leftItemCart{
+        width: 100%;
+        /* background-color: rgb(187, 61, 158); */
+        justify-content: flex-end;
+    }
+    .btnsLeftItemCart{
+     
+        width: 70%;
+        height: 1.5rem;   
+    }
+    .btnsLeftItemCart > button{
+      background-color: unset;
+      color: rgb(145, 141, 141);
+      border: none;
+      font-size: .9rem;
+      font-family: YekanT;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }

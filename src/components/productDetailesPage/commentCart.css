@@ -1,0 +1,82 @@
+.containerComment{
+    /* background-color: aqua; */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    display: flex;
+    justify-content: space-between;
+}
+.containerComment div > label {
+  display: flex;
+  font-size: .8rem;
+  color: rgb(118, 118, 118);
+   
+}
+.containerComment div > label > div{
+  background-color: rgb(238, 223, 9);
+  border-radius: 4px;
+  padding: 0px 4px;
+  font-size: .7rem !important;
+  display: flex;
+  align-items: center;
+  color: rgb(89, 90, 91);
+   
+}
+.containerComment div > label >span{
+   margin-left: 8px;
+   
+}
+.containerComment div > h6{
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    font-family: Yekanb;
+    padding-bottom: 0 !important;
+    color: rgb(16, 16, 16);
+}
+.containerComment div > span{
+    
+    color: rgb(118, 118, 118);
+    font-size: .75rem;
+    
+}
+.containerComment div > p{
+    font-size: .9rem;
+    
+}
+.offerTrue{
+  background-color: rgb(113, 213, 129);
+  color: green !important;
+  border-radius: 4px;
+  padding: 3px 5px;
+}
+.offerFalse{
+  background-color: rgb(238, 120, 120);
+  color: rgb(105, 6, 6) !important;
+  border-radius: 4px;
+  padding: 3px 5px;
+}
+/* responsive */
+@media only screen and (max-width: 530px) {
+  .containerComment{
+    /* background-color: aqua; */
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+@media only screen and (max-width: 400px) {
+  .containerComment div > p{
+    font-size: .8rem;
+    
+}
+.offerTrue{
+ font-size: .7rem !important;
+}
+.offerFalse{
+  font-size: .7rem !important;
+}
+}
+  
+}

@@ -1,0 +1,113 @@
+.galleryImageContainer{
+    background-color: rgb(226, 223, 224);
+    padding: 30px 15px;
+    border-radius: 3px;
+}
+.biggerImage{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.biggerImage > img{
+   
+    width: 90%;
+    height: 300px;
+}
+.smallerImages{
+    /* background-color: orange; */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 94%;
+}
+.smallerImages > img{
+    background-color: orange;
+    width: 50px;
+    height: 50px; 
+    margin: 0 1px; 
+     border-radius: 7px;
+}
+.smallerImages > div{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;  
+    margin: 0 1px; 
+     border-radius: 7px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: .6rem;
+}
+.smallerImages > div > span{ 
+    width: 45px;
+    height: 50px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(41, 41, 41);
+   
+}
+
+/* responsive */
+@media only screen and (max-width: 991.8px) {
+     .galleryImageContainer{
+        width: 50% !important;
+        padding: 20px 10px !important;
+     
+    }
+  }
+@media only screen and (max-width: 768px) {
+     .galleryImageContainer{
+        width: 68% !important;
+        padding: 20px 10px !important;
+    }
+  }
+@media only screen and (max-width: 520px) {
+     .galleryImageContainer{
+        width: 74% !important;
+        padding: 20px 10px !important;
+    }
+  }
+@media only screen and (max-width: 480px) {
+     .galleryImageContainer{
+        width: 78% !important;
+        padding: 20px 10px !important;
+    }
+  }
+@media only screen and (max-width: 440px) {
+     .galleryImageContainer{
+        width: 90% !important;
+        padding: 20px 10px !important;
+    }
+  }
+@media only screen and (max-width: 390px) {
+     .galleryImageContainer{
+        width: 100% !important;
+        padding: 20px 10px !important;
+    }
+  }
+@media only screen and (max-width: 350px) {
+    .biggerImage > img{
+   
+        width: 90%;
+        height: 250px;
+    }
+    .smallerImages > img{
+        background-color: orange;
+        width: 40px;
+        height: 40px; 
+        margin: 0 2px; 
+         border-radius: 7px;
+    }
+    .smallerImages > div{
+        width: 40px;
+        height: 40px; 
+        margin: 0 2px; 
+    }
+    
+  }

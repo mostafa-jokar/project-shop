@@ -1,0 +1,105 @@
+.contentImgInstallMent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 23vh;
+    /* background-color: aqua; */
+    overflow-x: scroll;
+    overflow-y: hidden;
+   /* background-color: aqua; */
+}
+
+.contentImgInstallMent>div {
+    width: 100px;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: .7rem;
+    margin: 0 2px;
+}
+
+.contentImgInstallMent>div>img {
+    width: 95px;
+    height: 95px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.contentImgInstallMent>div>span {
+    font-family: Yekanb !important;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentImgInstallMent>.divInstallment_right {
+    background-color: rgb(42, 42, 182);
+    color: rgb(255, 255, 255);
+    margin-top: -25px;
+    font-size: 1.2rem;
+}
+
+.contentImgInstallMent>.divInstallment_right>label {
+    /* background-color: rgb(42, 182, 114) !important; */
+    height: 30px;
+    width: 100%;
+    position: relative;
+    font-size: 1.7rem;
+}
+.contentImgInstallMent>.divInstallment_left>label {
+    /* background-color: rgb(42, 182, 114) !important; */
+    height: 30px;
+    width: 100%;
+    position: relative;
+    font-size: 1.7rem;
+}
+
+.contentImgInstallMent>.divInstallment_right>label>i {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    animation: divInstallment_right 1s infinite alternate;
+    color: rgb(44, 216, 196);
+    z-index: 0;
+
+}
+.contentImgInstallMent>.divInstallment_left>label>i {
+    color: rgb(44, 73, 216);
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    animation: divInstallment_left 1s infinite alternate;
+    z-index: 0;
+
+}
+
+@keyframes divInstallment_right {
+    from {
+        left: 15px;
+    }
+   to {
+        left: 65px;
+    }
+}
+@keyframes divInstallment_left {
+    from {
+        right: 15px;
+    }
+   to {
+        right: 65px;
+    }
+}
+
+.contentImgInstallMent>.divInstallment_left {
+    color: rgb(255, 255, 255);
+    background-color: rgb(62, 186, 163);
+    font-family: Yekanb !important;
+    margin-top: -25px;
+    font-size: 1.2rem;
+}

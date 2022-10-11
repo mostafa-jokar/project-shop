@@ -1,0 +1,344 @@
+.cart {
+    background-color: rgb(230, 230, 230);
+    width: 234px !important;
+    height: 430px;
+    margin: 1px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.cart:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 20px 2px rgb(169, 170, 170);
+}
+
+.cart .goToDetails {
+    text-decoration: none !important;
+    color: rgb(58, 56, 56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentImg {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    /* background-color: aqua; */
+}
+
+.imageCart {
+    width: 90% !important;
+    height: 90% !important;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cart h6 {
+    height: 75px;
+    /* background-color: aqua; */
+    overflow: hidden;
+    line-height: 30px;
+    margin: 0 15px;
+    font-size: .82rem;
+    line-height: 1.2rem;
+    text-align: start !important;
+    position: relative;
+
+}
+
+.pervPrice {
+    display: flex;
+    /* background-color: aqua; */
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.pervPrice span {
+    /* background-color: chartreuse; */
+    padding: 0 5px 0 15px;
+    color: rgb(87, 86, 85);
+    text-decoration: line-through;
+    font-size: .9rem;
+}
+
+.pervPrice label {
+    background-color: rgb(231, 217, 13);
+    /* font-weight: 800 !important; */
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-size: 15px; */
+    padding: 2px 5px;
+    font-family: Yekanc;
+    font-size: .7rem;
+}
+
+.Price {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1rem;
+    padding-bottom: 10px;
+}
+
+.Price span {
+    /* background-color: chartreuse; */
+    padding: 0px;
+    font-family: Yekanb;
+    font-weight: 700 !important;
+}
+
+.Price label {
+    color: rgb(121, 121, 121);
+    border-radius: 8px;
+    font-size: 15px;
+    padding-right: 5px;
+    padding-left: 12px;
+    font-family: Yekanb;
+    font-size: .9rem;
+}
+
+
+.addToCard {
+    border-top: 1px solid rgb(179, 206, 255);
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: .8rem;
+
+}
+
+.addToCard span {
+    background-color: aliceblue;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.addToCard button {
+    height: 35px;
+    background-color: rgb(54, 132, 221);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: .9rem;
+}
+
+.addToCard button img {
+    height: 100%;
+}
+
+.btnGarbage {
+    background-color: unset;
+    border: none;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.btnaddCart {
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.btnCartIn {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: unset;
+    border: none;
+    color: rgb(29, 84, 167);
+    font-size: 40px;
+}
+
+.btnCartDi {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: unset;
+    border: none;
+    color: rgb(29, 84, 167);
+    font-size: 40px;
+}
+
+/* responsive */
+@media only screen and (max-width: 992px) {
+    .cart {
+        width: 100%;
+        margin: 20px 2.5px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .cart {
+        width: 100%;
+        margin: 20px 2.5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cart {
+        width: 100%;
+        margin: 20px 2.5px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    .cart h6 {
+
+        font-size: .72rem;
+        line-height: 1.1rem;
+    }
+
+    .pervPrice {
+
+        font-size: .7rem;
+    }
+
+    .pervPrice span {
+
+        font-size: .8rem;
+    }
+
+    .pervPrice label {
+
+        font-size: .6rem;
+    }
+
+    .Price {
+
+        font-size: .8rem;
+
+    }
+
+    .Price label {
+
+        font-size: .8rem;
+    }
+
+}
+
+@media only screen and (max-width: 476px) {
+
+    /* .container{
+        width: 90%;
+    } */
+    .cart {
+
+        width: 100%;
+        margin: 20px 2.5px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imageCart {
+        width: 90%;
+        height: 55%;
+        border-radius: 8px;
+        margin: 10px 5px;
+        cursor: pointer;
+    }
+
+    .cart h6 {
+
+        font-size: .72rem;
+        line-height: 1.1rem;
+    }
+
+    .pervPrice {
+
+        font-size: .7rem;
+    }
+
+    .pervPrice span {
+
+        font-size: .8rem;
+    }
+
+    .pervPrice label {
+
+        font-size: .6rem;
+    }
+
+    .Price {
+
+        font-size: .8rem;
+
+    }
+
+    .Price label {
+
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    /* .container{
+        width: 90%;
+    } */
+    /* .cart{
+        
+        width: 100%;
+        margin: 20px 2.5px;
+        justify-content: center;
+        align-items: center;
+       
+    } */
+
+    .imageCart {
+        width: 90%;
+        height: 55%;
+        border-radius: 8px;
+        margin: 10px 5px;
+        cursor: pointer;
+    }
+
+    .cart h6 {
+
+        font-size: .72rem;
+        line-height: 1.1rem;
+    }
+
+    .pervPrice {
+
+        font-size: .7rem;
+    }
+
+    .pervPrice span {
+
+        font-size: .8rem;
+    }
+
+    .pervPrice label {
+
+        font-size: .6rem;
+    }
+
+    .Price {
+
+        font-size: .8rem;
+
+    }
+
+    .Price label {
+
+        font-size: .8rem;
+    }
+}

@@ -1,0 +1,25 @@
+.ItemsCart{
+    background-color: aqua;
+}
+
+.itemsCartPage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 5px;
+   
+  
+    /* background-color: rgb(31, 156, 94); */
+}
+.wallcolorPage{
+    background-color: rgb(236, 236, 247) !important;
+    width: 100%;
+    max-height: 100%;
+    min-height: 80vh;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+}
+
+

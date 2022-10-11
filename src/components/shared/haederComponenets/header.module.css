@@ -1,0 +1,704 @@
+header{
+    width: 100%;
+    height: 20vh;
+    /* background-color: darkslategrey; */
+   /* display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+   
+
+}
+/* topOfHeader */
+.topOfHeader{
+    margin-top: 20px;
+    /* background-color: deepskyblue; */
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.rightHeader{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: space-between;
+    /* background-color: brown ; */
+}
+.searchHeader{
+    display: flex;
+    /* background-color: rgb(82, 115, 185); */
+    width: 80%;
+    
+    align-items: center;
+    position: relative;
+}
+.searchHeader input{
+    width: 80%;
+    border-radius: 8px !important;
+    height: 40px;
+    margin-right: 20px;
+    border: none !important;
+    background-color: rgb(233, 233, 233);
+    padding: 0 10px;
+    font-size: .9rem; 
+      
+}
+.searchHeader input:focus{
+    border: none !important;
+}
+.searchHeader button{
+    position: absolute;
+    top: 15px;
+    right: 75%;
+    bottom: 0px;
+    border-radius: 20px !important;
+    height : 40px;
+    border: none;
+    font-size: .9rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: unset !important;
+    color: rgb(39, 39, 39);
+}
+.logoContent{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 60%;
+    height: 70%;
+}
+
+.leftHeader{
+    display: flex;
+    height: 100%;
+    width:  50%;
+    /* background-color: chartreuse; */
+    justify-content:flex-end ;
+    align-items: center;
+    padding-left: 30px;
+}
+.leftHeader .leftHeaderContent{
+    display: flex;
+ 
+    width:  100%;
+   height: 100%;
+    justify-content:flex-end ;
+    /* background-color: chocolate; */
+    align-items: center;
+    
+}
+.leftHeader .leftHeaderContent .cartshop{
+   width: 15%;
+   height: 100%;
+   position: relative;
+   display: flex;
+   align-items: center;
+    
+}
+.leftHeader .leftHeaderContent .cartshop img{
+ width: 25px;
+ height: 25px;
+}
+.leftHeader .leftHeaderContent button{
+    height: 2rem !important;
+    font-size: .8rem;
+    background-color: #fff;
+    color: rgb(0, 119, 255);
+}
+.leftHeader .leftHeaderContent .cartshop span{
+  position: absolute;
+  top: 9px;
+  left: 40px;
+  opacity: .8;
+  background-color: rgb(56, 88, 148);
+  color: #fff;
+  width: 20px;
+  height:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 11px;
+  font-size: .7rem;
+}
+.leftHeader .leftHeaderContent a{
+ margin-right: 40px;
+ text-decoration: none;
+ font-size: .9rem;
+ color: rgb(133, 133, 133);
+}
+
+/* navbar */
+header  nav{
+   
+    /* background-color: rgb(30, 168, 48); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:5vh ;
+    border-bottom: 1px solid rgb(192, 190, 190) ;  
+    margin-top: 15px;
+   
+    
+}
+
+nav > ul {
+     
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(228, 119, 18); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 5 !important;
+}
+nav > ul > li {
+ cursor: pointer;
+ transition: all .2s ease-in-out;
+ height: 100%;
+}
+nav > ul > li:hover > .subMenue {
+  display: flex;
+}
+nav > ul > li >div{
+    font-size: .75rem !important;
+ 
+
+}
+nav > ul > li:hover {
+  color: rgb(20, 141, 189);
+}
+.tilteNav{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+
+}
+.tilteNav div{
+   padding: 0 5px;
+   font-size: 11px !important;
+}
+
+/* sub menue */
+.subMenue{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    right:  0%;
+    background-color: rgb(244, 250, 253);
+    border: 1px solid rgb(197, 210, 245);
+    /* display: flex; */
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index:  99999 !important ; 
+  
+}
+.subMenue > .colomn {
+    height: 100%;
+    max-width: 40%;
+    min-width: 25%;
+    margin-top: 10px;
+}
+.subMenue > .colomn >ul{
+   /* background-color: chartreuse; */
+   width: 100%;
+   margin: 5px 12px;
+}
+.subMenue > .colomn >ul > li{
+   /* background-color: rgb(82, 53, 74); */
+   margin: 3px 0;
+   padding-right: 10px;
+  
+}
+.subMenue > .colomn >ul > li > a{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    font-size: 12px;
+}
+.subMenue > .colomn >ul > li > a:hover{
+   
+    color: rgb(47, 118, 211);
+    
+}
+.title {
+ padding: 0 !important;
+}
+.title a{
+    background-color: rgb(62, 109, 196);
+    color: aliceblue !important;
+    padding: 5px 5px;
+    display: flex; 
+    border-radius: 5px;
+}
+.title a div{
+  padding: 0 7px;
+}
+
+
+
+/* responsive */
+@media only screen and (max-width: 1200px) {
+    header  {
+   margin-bottom: 10vh !important;
+    
+    }
+  }
+@media only screen and (min-width:1200px) {
+ 
+    .hambergurMenueIcon {
+      display: none;
+    }
+  }
+@media only screen and (max-width: 1199.8px) {
+    .deActiveHamberNav{
+        display: none;
+    }
+   
+  .ActiveHamberNav  {
+       position: relative;
+       border: none;
+    }
+    .ActiveHamberNav  ul{
+        position: absolute;
+        background-color: rgb(230, 230, 230);
+        flex-direction: column;
+        top: 10.2vh;
+        width: 100%;
+        height: 85vh;
+        overflow-y: scroll;
+        border-radius: 5px;
+    }
+    .ActiveHamberNav  nav > ul > li{
+        /* background-color: rgb(30, 168, 48); */
+       justify-content: space-between;
+       width: 100%;
+       margin: 10px 0;
+       padding-right: 0vh;
+       
+    }
+   
+    .topOfHeader {
+     flex-direction: column;
+    }
+    .rightHeader{
+        width: 100% !important;
+       
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .searchHeader{
+        width: 35% !important;
+    }
+    .searchHeader input{
+        width: 100%;
+        font-size: .9rem;          
+    }
+    .searchHeader button{
+        position: absolute;
+        top: 8px;
+        right: 90%;
+        border-radius: 20px !important;
+        height : 40px;
+        border: none;
+        font-size: .9rem;
+        width: 2.2rem;
+        height: 2.2rem;
+        background-color: unset !important;
+        color: rgb(39, 39, 39);
+    }
+    .logoContent{
+        width: 30%;
+        justify-content: flex-start;
+        /* background-color: rgb(184, 133, 231); */
+    }
+    .logo{
+        width: 90px;
+        height: 100%;
+        /* background-color: blueviolet; */
+       
+    }
+    /*  */
+
+
+    .leftHeader{
+        margin: 20px 0 !important;
+        width:  100% !important;
+        height: 10vh !important;
+        justify-content: space-between !important; 
+        padding-left: 0px !important;
+        border-bottom: 1px solid rgb(202, 201, 201);
+        padding-bottom: 30px;
+    }
+    .leftHeader .leftHeaderContent{
+       
+        width:  35% !important;
+        display: flex;
+        height: 10vh;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+  
+    .leftHeader .cartshop{
+        width: 10%;
+        height: 100%; 
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .leftHeader .cartshop img{
+      width: 25px;
+      height: 25px;
+      /* background-color: blue; */
+      margin-left: 35px !important;
+     }
+   
+    .leftHeader button{
+        height: 1.8rem !important;
+        font-size: .7rem;
+        background-color: #fff;
+        color: rgb(0, 119, 255);
+    }
+    .leftHeader .cartshop span{
+      top: -8px !important;
+      left: 23px !important;
+      width: 7px !important;
+      height:7px !important;
+      padding: 11px;
+      font-size: .7rem;
+    }
+    .leftHeader a{
+    
+     margin-right: 0;
+     text-decoration: none;
+     font-size: .8rem;
+     color: rgb(133, 133, 133);
+    }
+    .hambergurMenueIcon button{
+        border: none;
+        font-size: 1.5rem;
+
+    }
+  }
+@media only screen and (max-width: 992px) {
+    header  r {
+     flex-direction: column;
+    }
+    .rightHeader{
+        width: 100% !important;
+       
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .searchHeader{
+        width: 50% !important;
+    }
+    .searchHeader input{
+        width: 100%;
+        font-size: .9rem;          
+    }
+    .searchHeader button{
+        position: absolute;
+        top: 4.5px;
+        right: 90%; 
+        height : 40px;
+        font-size: .9rem;
+        width: 2.2rem;
+        height: 2.2rem;
+
+    }
+ 
+   
+    /*  */
+
+
+    .leftHeader{
+        margin: 20px 0 !important;
+        width:  100% !important;
+        
+        justify-content: space-between !important;
+        
+        padding-left: 0px !important;
+        border-bottom: 1px solid rgb(202, 201, 201);
+        padding-bottom: 30px;
+    }
+    .leftHeader .leftHeaderContent{
+       
+        width:  45% !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aqua; */
+        height: 10vh;
+    }
+    .leftHeader .cartshop{
+       width: 10%;
+       height: 100%; 
+       /* background-color: blue; */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .leftHeader .cartshop img{
+     width: 25px;
+     height: 25px;
+     /* background-color: blue; */
+     margin-left: 35px !important;
+    }
+    .leftHeader button{
+        height: 1.8rem !important;
+        font-size: .7rem;
+        background-color: #fff;
+        color: rgb(0, 119, 255);
+    }
+    .leftHeader .cartshop span{
+      top: -8px !important;
+      left: 20px !important;
+      width: 7px !important;
+      height:7px !important;
+      padding: 11px;
+      font-size: .7rem;
+    }
+    .leftHeader a{
+    
+     margin-right: 0;
+     text-decoration: none;
+     font-size: .8rem;
+     color: rgb(133, 133, 133);
+    }
+    .hambergurMenueIcon button{
+        border: none;
+        font-size: 1.5rem;
+
+    }
+  }
+@media only screen and (max-width: 576px) {
+    header  r {
+     flex-direction: column;
+    }
+    .rightHeader{
+        width: 100% !important;
+       
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .searchHeader{
+        width: 70% !important;
+    }
+    .searchHeader input{
+        width: 100%;
+        font-size: .9rem;          
+    }
+    .searchHeader button{
+        position: absolute;
+        top: 4.5px;
+        right: 90%; 
+        height : 40px;
+        font-size: .9rem;
+        width: 2.2rem;
+        height: 2.2rem;
+
+    }
+ 
+   
+    /*  */
+     
+    header {
+        margin-bottom: 10vh !important;
+    }
+
+    .leftHeader{
+        margin: 20px 0 !important;
+        width:  100% !important;
+        
+        justify-content: space-between !important;
+        
+        padding-left: 0px !important;
+        border-bottom: 1px solid rgb(202, 201, 201);
+        padding-bottom: 30px;
+        
+    }
+    .leftHeader .leftHeaderContent{
+       
+        width:  67% !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aqua; */
+        height: 10vh;
+    }
+    .leftHeader .cartshop{
+       width: 10%;
+       height: 100%; 
+       /* background-color: blue; */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .leftHeader .cartshop img{
+     width: 25px;
+     height: 25px;
+     /* background-color: blue; */
+     margin-left: 35px !important;
+    }
+    .leftHeader button{
+        height: 1.8rem !important;
+        font-size: .7rem;
+        background-color: #fff;
+        color: rgb(0, 119, 255);
+    }
+    .leftHeader .cartshop span{
+      top: -8px !important;
+      left: 20px !important;
+      width: 7px !important;
+      height:7px !important;
+      padding: 11px;
+      font-size: .7rem;
+    }
+    .leftHeader a{
+    
+     margin-right: 0;
+     text-decoration: none;
+     font-size: .8rem;
+     color: rgb(133, 133, 133);
+    }
+    .hambergurMenueIcon button{
+        border: none;
+        font-size: 1.5rem;
+
+    }
+  }
+@media only screen and (max-width: 476px) {
+    header  r {
+     flex-direction: column;
+    }
+    .rightHeader{
+        width: 100% !important;
+       
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .searchHeader{
+        width: 70% !important;
+    }
+    .searchHeader input{
+        width: 100%;
+        font-size: .9rem;          
+    }
+    .searchHeader button{
+        position: absolute;
+        top: 4.5px;
+        right: 87%; 
+        height : 40px;
+        font-size: .9rem;
+        width: 2.2rem;
+        height: 2.2rem;
+
+    }
+ 
+   
+    /*  */
+     
+    header {
+        margin-bottom: 10vh !important;
+    }
+
+    .leftHeader{
+        margin: 20px 0 !important;
+        width:  100% !important;
+        
+        justify-content: space-between !important;
+        
+        padding-left: 0px !important;
+        border-bottom: 1px solid rgb(202, 201, 201);
+        padding-bottom: 30px;
+        
+    }
+    .leftHeader .leftHeaderContent{
+       
+        width:  75% !important;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: aqua; */
+        height: 10vh;
+    }
+    .leftHeader .cartshop{
+       width: 10%;
+       height: 100%; 
+       /* background-color: blue; */
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .leftHeader .cartshop img{
+     width: 25px;
+     height: 25px;
+     /* background-color: blue; */
+     margin-left: 35px !important;
+    }
+    .leftHeader button{
+        height: 1.8rem !important;
+        font-size: .7rem;
+        background-color: #fff;
+        color: rgb(0, 119, 255);
+    }
+    .leftHeader .cartshop span{
+      top: -8px !important;
+      left: 20px !important;
+      width: 7px !important;
+      height:7px !important;
+      padding: 11px;
+      font-size: .7rem;
+    }
+    .leftHeader a{
+    
+     margin-right: 0;
+     text-decoration: none;
+     font-size: .8rem;
+     color: rgb(133, 133, 133);
+    }
+    .hambergurMenueIcon button{
+        border: none;
+        font-size: 1.5rem;
+
+    }
+  }
+@media only screen and (max-width: 399.9px) {
+   
+    .leftHeader .btnWorkWihtUs{
+       display: none;
+    }
+    .leftHeader .cartshop span{
+      top: -8px !important;
+      left: 20px !important;
+      width: 7px !important;
+      height:7px !important;
+      padding: 11px;
+      font-size: .7rem;
+    }
+    .leftHeader a{
+    
+     margin-right: 0;
+     text-decoration: none;
+     font-size: .8rem;
+     color: rgb(133, 133, 133);
+    }
+    .hambergurMenueIcon button{
+        border: none;
+        font-size: 1.5rem;
+
+    }
+  }
