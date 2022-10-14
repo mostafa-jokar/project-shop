@@ -20,7 +20,7 @@ const fetchProductsError = error =>{
 const fetchProducts = products =>{
     return(dispatch) => {
         dispatch(fetchProductsRequest())
-        axios.get("http://localhost:3000/products")
+        axios.get("https://api-project-shop.herokuapp.com/products")
         .then(response => {
             const products = response.data;
             dispatch(fetchProductsSucccess(products))
