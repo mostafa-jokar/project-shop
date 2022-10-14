@@ -83,7 +83,7 @@ const Allproducts = (props) => {
                 <div className="carts_allProductsPage  col-md-8 col-sm-12 col-lg-9" >
 
                     {
-                        productsState.loading ? <h2>loading</h2> :
+                        productsState.loading ? <GridLoader color="#36afd6" /> :
                             productsState.error ?
                                 <p>{productsState.error}</p> :
 

@@ -86,7 +86,7 @@ const SliderProduct = (props) => {
                 >
 
                     {
-                        productsState.loading ? <h2>loading</h2> :
+                        productsState.loading ? <GridLoader color="#36afd6" /> :
                             productsState.error ?
                                 <p>{productsState.error}</p> :
                                 productsState.products.map(product => (product.category === `${props.category}` && product.goToslider === true) &&
