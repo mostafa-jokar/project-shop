@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-shop/static/css/main.fe66a46e.css",
-    "main.js": "/project-shop/static/js/main.d4cf3b62.js",
+    "main.css": "/project-shop/static/css/main.746e23c9.css",
+    "main.js": "/project-shop/static/js/main.70023e9d.js",
     "static/media/baner2.jpg": "/project-shop/static/media/baner2.899ea5b9fc636f59d9bd.jpg",
     "static/media/da.jpg": "/project-shop/static/media/da.b7981a953eaeb696248e.jpg",
     "static/media/baner1.jpg": "/project-shop/static/media/baner1.73b4b4876947543933ea.jpg",
@@ -27,11 +27,11 @@
     "static/media/shopping-cart-svgrepo-com.svg": "/project-shop/static/media/shopping-cart-svgrepo-com.6841fe8e4678210aa3f86abf415227f4.svg",
     "static/media/Cloudy.svg": "/project-shop/static/media/Cloudy.035e60b764d0beece317.svg",
     "index.html": "/project-shop/index.html",
-    "main.fe66a46e.css.map": "/project-shop/static/css/main.fe66a46e.css.map",
-    "main.d4cf3b62.js.map": "/project-shop/static/js/main.d4cf3b62.js.map"
+    "main.746e23c9.css.map": "/project-shop/static/css/main.746e23c9.css.map",
+    "main.70023e9d.js.map": "/project-shop/static/js/main.70023e9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe66a46e.css",
-    "static/js/main.d4cf3b62.js"
+    "static/css/main.746e23c9.css",
+    "static/js/main.70023e9d.js"
   ]
 }
