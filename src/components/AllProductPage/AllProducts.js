@@ -16,6 +16,8 @@ import FilterPoductsModal from '../Modals/FilterPoductsModal';
 //aboute redux
 import { useDispatch, useSelector } from 'react-redux';
 import fetchProducts from '../../redux/products/productsAction';
+////
+import GridLoader from 'react-spinners/GridLoader';
 
 
 const Allproducts = (props) => {
@@ -83,7 +85,7 @@ const Allproducts = (props) => {
                 <div className="carts_allProductsPage  col-md-8 col-sm-12 col-lg-9" >
 
                     {
-                        productsState.loading ? <GridLoader color="#36afd6" /> :
+                        productsState.loading ? <div className='containerGridLoader'><GridLoader color="#36afd6" /></div>  :
                             productsState.error ?
                                 <p>{productsState.error}</p> :
 

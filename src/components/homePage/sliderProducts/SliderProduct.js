@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import ProductCart from '../../shared/ProductCart';
 import { useDispatch, useSelector } from 'react-redux';
 import fetchProducts from '../../../redux/products/productsAction';
+import { GridLoader } from 'react-spinners';
 
 
 
@@ -86,7 +87,7 @@ const SliderProduct = (props) => {
                 >
 
                     {
-                        productsState.loading ? <GridLoader color="#36afd6" /> :
+                        productsState.loading ? <div className='containerGridLoader'><GridLoader color="#36afd6" /></div> :
                             productsState.error ?
                                 <p>{productsState.error}</p> :
                                 productsState.products.map(product => (product.category === `${props.category}` && product.goToslider === true) &&

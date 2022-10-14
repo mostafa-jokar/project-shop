@@ -73,3 +73,9 @@
     font-size: 1.05rem ;
    
 }
+.containerGridLoader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   width: 100%;
+}
