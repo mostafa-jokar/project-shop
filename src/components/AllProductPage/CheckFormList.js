@@ -13,7 +13,7 @@ const CheckFormList = (prpos) => {
 
     const [brands, setBrands] = useState([]);
     React.useEffect(() => {
-        axios.get("http://localhost:3000/brands").then((response) => {
+        axios.get("https://api-project-shop.herokuapp.com/brands").then((response) => {
             setBrands(response.data);
         });
     }, []);

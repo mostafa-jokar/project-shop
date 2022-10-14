@@ -21,7 +21,7 @@ import CartPage from './components/cartPage/CartPage';
 
 
 function App() {
-  // const menueData = useContext(SubMenuProvider)
+
  
   return (
    
