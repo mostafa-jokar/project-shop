@@ -180,7 +180,7 @@
  /* responsive : */
  @media screen and (max-width: 1200px) {
     .formContainer{ 
-        width: 45 % !important;  
+        width: 45% !important;  
     }
    }
  @media screen and (max-width: 992px) {

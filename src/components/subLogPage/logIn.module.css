@@ -174,3 +174,23 @@
     display: flex;
     align-items: center;
  }
+ @media screen and (max-width: 1200px) {
+    .formContainer{ 
+        width: 45% !important;  
+    }
+   }
+ @media screen and (max-width: 992px) {
+    .formContainer{ 
+        width: 55% !important;  
+    }
+   }
+ @media screen and (max-width: 768px) {
+    .formContainer{ 
+        width: 65% !important;  
+    }
+   }
+ @media screen and (max-width: 572px) {
+    .formContainer{ 
+        width: 90% !important;  
+    }
+   }
