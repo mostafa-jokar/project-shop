@@ -3,7 +3,7 @@ import React from 'react';
 // hooks
 import { useEffect } from 'react';
 // redux
-import ProductCart from '../../shared/ProductCart';
+import ProductCart from '../../cartPage/ProductCart';
 import { useDispatch, useSelector } from 'react-redux';
 import fetchProducts from '../../../redux/products/productsAction';
 import { GridLoader } from 'react-spinners';

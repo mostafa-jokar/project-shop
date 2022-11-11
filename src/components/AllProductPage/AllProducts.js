@@ -3,11 +3,10 @@ import React, { useState, useEffect } from 'react';
 // react router dom
 import { useParams } from 'react-router-dom';
 // child Components 
-import ProductCart from '../shared/ProductCart';
+import ProductCart from '../cartPage/ProductCart';
 import CheckFormList from './CheckFormList';
 
 //css
-import styles from "./AllProducts.module.css";
 import "./AllProducts.css";
 
 // modals
@@ -21,9 +20,9 @@ import GridLoader from 'react-spinners/GridLoader';
 
 
 const Allproducts = (props) => {
-    
-    const params = useParams()
 
+    const params = useParams()
+    
     // redux code
     const dispatch = useDispatch()
     const productsState = useSelector(state => state.productsState)

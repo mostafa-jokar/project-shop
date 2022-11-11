@@ -1,5 +1,3 @@
-import React, { useReducer } from 'react';
-import ProductCart from '../../redux/cart/cartProductReducer';
 
 const initialState = {
     selectedItems: [],

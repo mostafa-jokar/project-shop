@@ -11,20 +11,13 @@ import { useDispatch, useSelector } from 'react-redux';
 import { clear, ChekOute } from '../../redux/cart/cartProductAction';
 
 
-
-
-
 const CartPage = () => {
-
 
     const dispatch = useDispatch()
     const state = useSelector(state => state.cartProductState)
-
     // console.log(state)
 
-
     return (
-
         <>
             {
                 state.totalCount > 0 ?

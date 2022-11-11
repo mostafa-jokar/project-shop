@@ -10,9 +10,7 @@ import { useDispatch, useSelector } from 'react-redux';
 //actions
 import { removeItem, increase, decrease, addItem } from '../../redux/cart/cartProductAction';
 
-// icons
-import garbageIcon from "../../assets/icons/garbage-icon.svg";
-// image 
+
 
 
 
