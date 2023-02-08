@@ -33,7 +33,6 @@ const ItemsCartPage = (props) => {
             </div>
             <div className=' col leftItemCart '>
                <div className='btnsLeftItemCart'>
-
                     {
                         quantitiy > 1 ?
                             <button onClick={() => dispatch(decrease(props.data))}> <i class="fa fa-minus" aria-hidden="true"></i> </button>

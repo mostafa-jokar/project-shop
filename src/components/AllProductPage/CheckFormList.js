@@ -13,7 +13,7 @@ const CheckFormList = (prpos) => {
 
     const [brands, setBrands] = useState([]);
     React.useEffect(() => {
-        axios.get("https://api-project-shop.herokuapp.com/brands").then((response) => {
+        axios.get("https://api.npoint.io/54ec5dfc969eefe55b28/brands").then((response) => {
             setBrands(response.data);
         });
     }, []);

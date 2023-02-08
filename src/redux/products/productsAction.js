@@ -1,5 +1,6 @@
 import axios from "axios"
 
+
 const fetchProductsRequest = ()=>{
     return{
         type : "FETCH_PRODUCTS_REQUEST"
@@ -20,7 +21,12 @@ const fetchProductsError = error =>{
 const fetchProducts = products =>{
     return(dispatch) => {
         dispatch(fetchProductsRequest())
-        axios.get("https://api-project-shop.herokuapp.com/products")
+        // axios.get("https://api-project-shop.herokuapp.com/products")
+        // axios.get("https://raw.githubusercontent.com/mostafa-jokar/api/main/db.json/products")
+        // axios.get("http://localhost:3000/products")
+   
+
+        axios.get("https://api.npoint.io/54ec5dfc969eefe55b28/products")
         .then(response => {
             const products = response.data;
             dispatch(fetchProductsSucccess(products))

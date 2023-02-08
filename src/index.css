@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Yekan';
-  src: local('Yekan') , url('./fonts/IRANYekanBold.ttf') format('truetype');
+  src: local('Yekan') , url('./assets/fonts/IRANYekanBold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Yekanb';
-  src: local('Yekanb') , url('./fonts/IRANYekanExtraBold.ttf') format('truetype');
+  src: local('Yekanb') , url('./assets/fonts/IRANYekanExtraBold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Yekanc';
-  src: local('Yekanc') , url('./fonts/IRANYekanExtraBlack.ttf') format('truetype');
+  src: local('Yekanc') , url('./assets/fonts/IRANYekanExtraBlack.ttf') format('truetype');
 }
 @font-face {
   font-family: 'YekanT';
-  src: local('YekanT') , url('./fonts/IRANYekanRegular.ttf') format('truetype');
+  src: local('YekanT') , url('./assets/fonts/IRANYekanRegular.ttf') format('truetype');
 }
 
 *{
